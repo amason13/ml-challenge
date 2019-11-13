@@ -1,0 +1,28 @@
+nominal_cols = ['class_of_worker',
+                 'marital_status',
+                 'major_industry_code',
+                 'major_occupation_code',
+                 'race',
+                 'sex',
+                 'full_or_part_time_employment_stat',
+                 'live_in_this_house_1_year_ago',
+                 'total_person_earnings',
+                 'country_of_birth_father',
+                 'country_of_birth_mother',
+                 'country_of_birth_self',
+                 'citizenship',
+                 'own_business_or_self_employed']
+
+ordinal_cols = ["education"]
+
+interval_cols = []
+
+ratio_cols = ['age',
+             'wage_per_hour',
+             'capital_gains',
+             'capital_losses',
+             'divdends_from_stocks',
+             'family_members_under',
+             'weeks_worked']
+
+target_col = ["earn_over_50k"]
